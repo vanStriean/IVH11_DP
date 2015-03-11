@@ -26,8 +26,8 @@ public abstract class HouseTemplate {
     }
  
     //methods to be implemented by subclasses
-    public abstract void buildWalls();
-    public abstract void buildPillars();
+    protected abstract void buildWalls();
+    protected abstract void buildPillars();
  
     private void buildFoundation() {
         System.out.println("Bouw de fundering met cement, ijzeren staven en zand");
